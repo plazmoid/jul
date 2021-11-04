@@ -1,0 +1,128 @@
+[
+    {
+        "model": "main.quizselect",
+        "pk": "page1",
+        "fields": {
+            "name": "Тема опроса 1"
+        }
+    },
+    {
+        "model": "main.quizselect",
+        "pk": "page2",
+        "fields": {
+            "name": "Тёма опроса 2"
+        }
+    },
+    {
+        "model": "main.quizselect",
+        "pk": "page3",
+        "fields": {
+            "name": "Последняя артёма опроса"
+        }
+    },
+    {
+        "model": "main.quizitem",
+        "pk": 1,
+        "fields": {
+            "value": "Вариант 1"
+        }
+    },
+    {
+        "model": "main.quizitem",
+        "pk": 2,
+        "fields": {
+            "value": "Вариант 2"
+        }
+    },
+    {
+        "model": "main.quizitem",
+        "pk": 3,
+        "fields": {
+            "value": "Вариант 3"
+        }
+    },
+    {
+        "model": "main.quizitem",
+        "pk": 4,
+        "fields": {
+            "value": "Вариант 4"
+        }
+    },
+    {
+        "model": "main.quizitem",
+        "pk": 5,
+        "fields": {
+            "value": "Вариант 5"
+        }
+    },
+    {
+        "model": "main.quizitem",
+        "pk": 6,
+        "fields": {
+            "value": "Вариант 6"
+        }
+    },
+    {
+        "model": "main.quizitem",
+        "pk": 7,
+        "fields": {
+            "value": "Вариант 7"
+        }
+    },
+    {
+        "model": "main.quizrules",
+        "fields": {
+            "page_name": "page1",
+            "item": 1,
+            "show_if": ""
+        }
+    },
+    {
+        "model": "main.quizrules",
+        "fields": {
+            "page_name": "page1",
+            "item": 2,
+            "show_if": ""
+        }
+    },
+    {
+        "model": "main.quizrules",
+        "fields": {
+            "page_name": "page1",
+            "item": 3,
+            "show_if": ""
+        }
+    },
+    {
+        "model": "main.quizrules",
+        "fields": {
+            "page_name": "page2",
+            "item": 4,
+            "show_if": "1,2"
+        }
+    },
+    {
+        "model": "main.quizrules",
+        "fields": {
+            "page_name": "page2",
+            "item": 5,
+            "show_if": ""
+        }
+    },
+    {
+        "model": "main.quizrules",
+        "fields": {
+            "page_name": "page3",
+            "item": 6,
+            "show_if": "4"
+        }
+    },
+    {
+        "model": "main.quizrules",
+        "fields": {
+            "page_name": "page3",
+            "item": 7,
+            "show_if": "5"
+        }
+    }
+]

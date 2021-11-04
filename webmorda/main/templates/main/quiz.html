@@ -1,0 +1,20 @@
+{% extends "main/base.html" %}
+{% block body %}
+<div class="d-flex gap-5 justify-content-center">
+    <h1>{{ name }}</h1>
+</div>
+<br>
+<div class="d-flex gap-5 justify-content-center">
+    <!-- пустой action означает, что запрос будет совершнё на ту же страницу, на которой находимся сейчас -->
+    <form action="" method="post">
+        <select name="selector">
+            {% for item in items %}
+            <option value="{{ item.id }}">{{ item.value }}</option>
+            {% endfor %}
+        </select>
+        <!-- забей -->
+        {% csrf_token %}
+        <input type="submit" value="Отправить">
+    </form>
+</div>
+{% endblock body %}

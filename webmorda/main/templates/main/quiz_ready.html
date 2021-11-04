@@ -1,0 +1,14 @@
+{% extends "main/base.html" %}
+{% block body %}
+<div class="d-flex gap-5 justify-content-center">
+    <h1>Результаты</h1>
+</div>
+<br>
+<div class="d-flex gap-5 justify-content-center">
+    <ul>
+        {% for result in results %}
+        <li>{{ result }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock body %}
